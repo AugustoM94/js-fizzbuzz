@@ -1,0 +1,30 @@
+/* general */
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+#boxWrapper{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border:1px solid black;
+    padding: 5px;
+}
+.fizz{
+    background-color:  lightgreen;
+}
+.buzz{
+        background-color: yellow;
+}
+.fizzbuzz {
+    background-color: red;
+}
