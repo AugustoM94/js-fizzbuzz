@@ -12,28 +12,35 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
-#boxWrapper{
-    width: 400px;
-    height: 400px;
-    margin: 50px auto;
+.Wrapper{
+    width: 100%;
+    
     
 }
 
-.box{
-    width: 50px;
-    height: 50px;
-    border:1px solid black;
+.my-box{
+    width: 900px;
+   
 }
-.fizz{
+.my-small-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: .75em;
+}
+.bgfizz{
     background-color:  lightgreen;
     border:1px solid black;
 }
-.buzz{
+.bgbuzz{
         background-color: yellow;
         border:1px solid black;
 
 }
-.fizzbuzz {
+.bgfizzbuzz {
     background-color: red;
     border:1px solid black;
 
